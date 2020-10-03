@@ -3,7 +3,7 @@
     $stringOne = 'My name is Kuntiarso';
     $stringTwo = 'I was born on January, 1997';
 
-    $name = 'KuNtiA';
+    $name = 'KuNtiArso';
     $age = 23;
 
 ?>
