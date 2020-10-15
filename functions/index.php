@@ -72,6 +72,20 @@
         <br>
         <small>return: Hey, <?php echo defaultName(); ?>!</small>
     </div>
+    <!-- <div>
+        <p>5. Store default value when no argument is filled</p>
+        <small>default: "Alexandra"</small>
+        <br>
+        <br>
+        <small>ex input: foo("Zlatan")</small>
+        <br>
+        <small>return: Hey, <?php echo defaultName("Zlatan"); ?>!</small>
+        <br>
+        <br>
+        <small>ex input: foo()</small>
+        <br>
+        <small>return: Hey, <?php echo defaultName(); ?>!</small>
+    </div> -->
 
 </body>
 </html>
