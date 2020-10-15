@@ -20,6 +20,10 @@
         return $name;
     }
 
+    function defaultName(string $name = "Alexandra") {
+        return $name;
+    }
+
 ?>
 
 <!DOCTYPE html>
@@ -53,6 +57,20 @@
         <small>ex input: "Alexandra"</small>
         <br>
         <small>return: I know where are you, <?php echo myName("Alexandra"); ?>!</small>
+    </div>
+    <div>
+        <p>5. Store default value when no argument is filled</p>
+        <small>default: "Alexandra"</small>
+        <br>
+        <br>
+        <small>ex input: foo("Zlatan")</small>
+        <br>
+        <small>return: Hey, <?php echo defaultName("Zlatan"); ?>!</small>
+        <br>
+        <br>
+        <small>ex input: foo()</small>
+        <br>
+        <small>return: Hey, <?php echo defaultName(); ?>!</small>
     </div>
 
 </body>
